@@ -1,0 +1,37 @@
+import {
+  BadgeEuro,
+  CalendarRange,
+  Dumbbell,
+  Goal,
+  Handshake,
+  LayoutGrid,
+  Lightbulb,
+  Mountain,
+  ShowerHead,
+  Snowflake,
+  Sun,
+  Tent,
+  UsersRound,
+  Warehouse,
+  Waves,
+  type LucideIcon,
+} from "lucide-react";
+import type { FeatureIconName } from "./locations";
+
+export const FEATURE_ICON: Record<FeatureIconName, LucideIcon> = {
+  sun: Sun,
+  warehouse: Warehouse,
+  dumbbell: Dumbbell,
+  "shower-head": ShowerHead,
+  tent: Tent,
+  snowflake: Snowflake,
+  waves: Waves,
+  "users-round": UsersRound,
+  "badge-euro": BadgeEuro,
+  goal: Goal,
+  mountain: Mountain,
+  "layout-grid": LayoutGrid,
+  lightbulb: Lightbulb,
+  "calendar-range": CalendarRange,
+  handshake: Handshake,
+};
